@@ -1,0 +1,24 @@
+footer{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    z-index: 1;
+    &::after {
+        content: "";         /* 疑似要素に必須 */
+        width: 100vw;         /* 幅いっぱい */
+        height: 100%;        /* 高さいっぱい */
+        display: block;      /* 高さを指定するためにブロック要素にする */
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0, #fff 80%); /* 徐々に透明にする */
+        position: absolute;  /*  */
+        right: 0; 
+        bottom: 0px;
+        z-index: -1;
+    }
+}
