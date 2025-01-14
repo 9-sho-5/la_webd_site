@@ -3,10 +3,6 @@
   font-family: "red-light";
   src: url(../fonts/TheRedlightFree.ttf);
 }
-@font-face {
-  font-family: "genjyu";
-  src: url(../fonts/GenJyuuGothicL-Bold.ttf), url(../fonts/GenJyuuGothicL-ExtraLight.ttf), url(../fonts/GenJyuuGothicL-Heavy.ttf), url(../fonts/GenJyuuGothicL-Light.ttf) url(../fonts/GenJyuuGothicL-Medium.ttf), url(../fonts/GenJyuuGothicL-Normal.ttf), url(../fonts/GenJyuuGothicL-Regular.ttf);
-}
 #scroll {
   position: absolute;
   left: 10%;
